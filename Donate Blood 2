@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    
+      int age,weight;
+    float hemoglobin;
+    scanf("%d %d %f",&age,&weight,&hemoglobin);
+    if (age >=18 || weight >=45 || hemoglobin >=5.5) {
+        printf("He or She can donate blood");
+    } else {
+        printf("He or She unable to donate blood");
+        
+        }
+    return 0;
+}
