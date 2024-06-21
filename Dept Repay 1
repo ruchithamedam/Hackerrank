@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+    float amt,inte,yrs,dis,interest;
+   
+    scanf("%f %f %f",&amt,&inte,&yrs);
+    interest=(amt*inte*yrs)/100;
+    float amt2=amt+interest;
+    dis=interest*(0.02);
+    float final=amt2-dis;
+    printf("%.2f\n%.2f\n%.2f\n%.2f",interest,amt2,dis,final);
+    
+    
+    
+    return 0;
+}
