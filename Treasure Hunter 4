@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    int c,ben,bla;
+    scanf("%d %d %d",&c,&ben,&bla);
+    int ben1,bla1;
+    ben1=c*ben*0.01;
+    int c1=(c-ben1);
+    bla1=(c1*bla*0.01);
+    int c2=(c-(ben1+bla1))/3;
+    printf("%d\n%d\n%d",ben1,bla1,c2);
+    
+    return 0;
+}
