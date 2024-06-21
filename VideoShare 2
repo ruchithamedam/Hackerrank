@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    int p;
+    scanf("%d",&p);
+    if(p>=30&&p<=50)
+    {
+        printf("Average");
+    }
+    else if(p>=51&&p<=60)
+    {
+        printf("Good");
+    }
+    else if(p>=61&&p<=80)
+    {
+        printf("Excellent");
+    }
+    else if(p>=81&&p<=100)
+    {
+        printf("Outstanding");
+    }
+    else 
+        printf("Invalid Input");
+    return 0;
+}
